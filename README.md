@@ -1,5 +1,7 @@
 Testcases created using Phpunit for https://autoblog.truecar.com 
 
+To execute the script, download phpunit from https://phpunit.de/ and you should have selenium server running in your local (Host is set to local and browser: firefox)
+
 This is a simple Automation test suite designed to navigate through the pages and to check the trim value in the dealer page. 
 
 This testsuite right now is designed with the DOM elements and data defined as mutlidimesion array in the same suite. But this can be improved by creating UImap for each page and righting some classes/functions to call them in the test suite like 
